@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/18 14:00:37.000.237,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 15:27:51.000.043,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 17:06:45.000.466,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 17:55:00.000.744,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:04:35.000.708,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:22:02.000.602,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:25:40.000.764,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:31:30.000.345,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:54:06.000.896,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/18 18:55:55.000.482,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 09:15:38.000.407,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/20 03:46:53.000.541,=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/20 03:47:53.000.728,D:\radComponents\ARComponents\demo\untMain.dfm=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/20 03:47:53.000.728,D:\radComponents\ARComponents\demo\untMain.pas=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/20 03:49:06.000.994,D:\radComponents\ARComponents\demo\Demo.dproj=C:\Users\eu\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/20 04:01:13.000.659,D:\radComponents\ARComponents\demo\untMain.dfm=D:\radComponents\ARComponents\demo\forms\untMain.dfm</Transaction>
+    <Transaction>2024/10/20 04:01:13.000.659,D:\radComponents\ARComponents\demo\untMain.pas=D:\radComponents\ARComponents\demo\forms\untMain.pas</Transaction>
+  </Transactions>
+</BorlandProject>
