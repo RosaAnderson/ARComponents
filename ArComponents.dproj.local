@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/20 03:24:42.000.590,D:\radComponents\ARComponents\ArComp.dproj=D:\radComponents\ARComponents\ArComponents.dproj</Transaction>
+    <Transaction>2024/10/20 03:26:22.000.443,D:\radComponents\ARComponents\demo\untCard.dfm=D:\radComponents\ARComponents\source\untCard.dfm</Transaction>
+    <Transaction>2024/10/20 03:26:22.000.443,D:\radComponents\ARComponents\demo\untCard.pas=D:\radComponents\ARComponents\source\untCard.pas</Transaction>
+    <Transaction>2024/10/20 03:43:57.000.797,=D:\radComponents\ARComponents\source\ArPanelScheduled.pas</Transaction>
+    <Transaction>2024/10/20 04:00:47.000.826,D:\radComponents\ARComponents\demo\untCard.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
