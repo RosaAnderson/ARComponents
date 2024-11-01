@@ -13,9 +13,8 @@ type
   private
     { Private declarations }
     FFocusColor: TColor;
-    FFocusColorEnabled: Boolean;
     FFocusFontColor: TColor;
-
+    FFocusColorEnabled: Boolean;
     FIniColor: TColor;
     FIniFontColor: TColor;
 
@@ -37,6 +36,7 @@ type
     property FocusColor: TColor read FFocusColor write SetFocusColor;
     property FocusFontColor: TColor read FFocusFontColor write SetFocusFontColor;
     property FocusColorEnabled: Boolean read FFocusColorEnabled write SetFocusColorEnabled;
+
   end;
 
 procedure Register;
@@ -54,7 +54,7 @@ constructor TArEdit.Create(AOwner: TComponent);
 begin
   inherited;
     // seta a cor padrão
-    FFocusColor     := clWindow; // cor do fundo
+    FFocusColor     := clWhite; // cor do fundo
     FFocusFontColor := clBlack;  // cor da font
 end;
 
@@ -63,8 +63,8 @@ begin
   inherited;
 
     // salva a cor sem foco
-    FIniColor       := Color;      // cor do fundo
-    FIniFontColor   := Font.Color; // cor da font
+    FIniColor     := Color;      // cor do fundo
+    FIniFontColor := Font.Color; // cor da font
 
     // valida se vai usar a função
     if not FocusColorEnabled then
