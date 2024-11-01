@@ -3,24 +3,23 @@ unit untMain;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, ArEdit,
-  ArPanelScheduled, Vcl.Buttons;
+  Winapi.Windows, Winapi.Messages,
+
+  System.SysUtils, System.Variants, System.Classes,
+
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Buttons,
+
+  ArEdit,
+
+  ArCalendarAppointmentNotice, ArCalendarEmptyNotice, ArFolderPath, ArButton,
+  ArSinglePanel;
 
 type
   TForm1 = class(TForm)
-    pnlBase: TPanel;
-    pnlLeft: TPanel;
-    pnlAll: TPanel;
-    Label1: TLabel;
     Panel7: TPanel;
     Label17: TLabel;
     Shape6: TShape;
-    Panel1: TPanel;
-    Label2: TLabel;
-    Label4: TLabel;
-    Shape3: TShape;
-    SpeedButton2: TSpeedButton;
     Panel2: TPanel;
     Label3: TLabel;
     Label5: TLabel;
@@ -34,6 +33,40 @@ type
     Panel3: TPanel;
     ArEdit1: TArEdit;
     ArEdit2: TArEdit;
+    ArCalendarAppointmentNotice1: TArCalendarAppointmentNotice;
+    ArCalendarEmptyNotice1: TArCalendarEmptyNotice;
+    Button1: TButton;
+    ArFolderPath1: TArFolderPath;
+    ArCalendarEmptyNotice2: TArCalendarEmptyNotice;
+    Panel1: TPanel;
+    PaintBox1: TPaintBox;
+    lblHoje: TLabel;
+    ArCalendarAppointmentNotice2: TArCalendarAppointmentNotice;
+    ArButton2: TArButton;
+    Panel4: TPanel;
+    Shape3: TShape;
+    Panel6: TPanel;
+    Panel5: TPanel;
+    Shape5: TShape;
+    ArSinglePanel1: TArSinglePanel;
+    Label1: TLabel;
+    Panel8: TPanel;
+    Label2: TLabel;
+    pnlBase: TPanel;
+    pnlLeft: TPanel;
+    Panel13: TPanel;
+    Shape10: TShape;
+    Label16: TLabel;
+    Label4: TLabel;
+    ArSinglePanel2: TArSinglePanel;
+
+
+
+    procedure ArCalendarEmptyNotice1Click(Sender: TObject);
+    procedure ArCalendarAppointmentNotice1Click(Sender: TObject);
+    procedure ArCalendarEmptyNotice2Click(Sender: TObject);
+
+
   private
     { Private declarations }
   public
@@ -47,4 +80,22 @@ implementation
 
 {$R *.dfm}
 
+procedure TForm1.ArCalendarAppointmentNotice1Click(Sender: TObject);
+begin
+    ShowMessage('Coisas novas');
+end;
+
+procedure TForm1.ArCalendarEmptyNotice1Click(Sender: TObject);
+begin
+    ShowMessage('Coisas novas');
+end;
+
+procedure TForm1.ArCalendarEmptyNotice2Click(Sender: TObject);
+begin
+//
+end;
+
 end.
+
+
+
